@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int main() {
+setlocale(LC_ALL, "");
+system("color f1");
 float c,f,k;
 int d,T;
-printf("¿Desea realizar una conversión de temperatura? (1 si,0 no)\n");
+printf("Â¿Desea realizar una conversiÃ³n de temperatura? (1 si,0 no)\n");
 scanf("%d",&d);
 	
 	while(d==1){
