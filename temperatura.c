@@ -55,5 +55,7 @@ scanf("%d",&d);
 				printf("Valor invalido\n");
 				break;
 		}
+		printf("¿Quieres continuar? (1 si,0 no)\n");
+		scanf("%d",&d);
 	}
 }
